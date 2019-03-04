@@ -1,0 +1,51 @@
+.root
+{
+    -fx-background-image: url("Assets/tlo.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 560px 400px;
+
+}
+
+.label
+{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+#turnLabel
+{
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button
+{
+ 	-fx-background-color:
+        linear-gradient(#990000,#CC3333),
+        radial-gradient(center 50% -40%, radius 200%, #990000 45%, #CC3333 50%);
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button:hover
+{
+ 	-fx-background-color:
+        linear-gradient(#CC3333, #FF6666),
+        radial-gradient(center 50% -20%, radius 200%, #CC3333 45%, #FF6666 50%);
+    -fx-text-fill: #000000;
+}
+
+.button:pressed
+{
+  	-fx-background-color:
+        linear-gradient(#660000, #990000),
+        radial-gradient(center 50% -20%, radius 200%, #660000 45%, #990000 50%);
+    -fx-text-fill: #FFFFFF;
+}
